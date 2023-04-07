@@ -1,0 +1,32 @@
+body {
+  width: 1024px;
+  text-align: center;
+  margin: 0 auto;
+/* The first value of margin represents the upper/lower margin and the other value represents the right/left, since its auto, the images and texts are centred. THIS IS ANOTHER WAY OF CENTERING TEXTS OTHER THAN CENTER TAGS */
+  background-color: aliceblue;
+}
+
+img{
+  width: 100%;
+  /* The width is set to 100% of the parent container which is the body. This means that 100 that the width of the image will be 1024 pixels so it will take up the entire space width-wise (except the margin)*/
+}
+
+div{
+  width: 400px;
+  display: inline-block;
+  /* The display can be inline meaning the code goes in the same line, it can be block, where the display goes to the next line. IT CAN ALSO BE INLINE BLOCK border*/
+  vertical-align: top;
+  /* aligns image vertically*/
+  padding: 30px;
+  margin: auto;
+}
+
+.one{
+  width: 800px;
+  border: 5px solid grey;
+  background-color: cornsilk;
+  margin: 40px 0px;
+}
+
+
+
